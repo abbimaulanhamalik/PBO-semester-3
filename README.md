@@ -43,9 +43,9 @@ Repositori ini disusun sebagai dokumentasi akademik dan *code showcase* untuk ma
 | **Dosen Pengampu** | **Edwin Hari Agus Prastyo, S.Kom., M.Kom.** |
 | **Institusi** | Fakultas Teknologi Informasi (FTI), Universitas Hasyim Asy'ari (UNHASY) Tebuireng |
 | **Mata Kuliah** | Pemrograman Berorientasi Objek (PBO) |
-| **Mahasiswa** | `[Isi Nama Lengkap Anda]` |
-| **NIM** | `[Isi NIM Anda]` |
-| **Kelas / Angkatan** | `[Contoh: TI-3A / 202X]` |
+| **Mahasiswa** | `[Abbi Maulanha Malik]` |
+| **NIM** | `[2595114007]` |
+| **Kelas / Angkatan** | `[TI-A/2025]` |
 
 ---
 
