@@ -1,143 +1,140 @@
 <div align="center">
 
 # 🐍 Pemrograman Berorientasi Objek (PBO)
-### **Semester 3 • Program Studi Informatika / FTI • Universitas Hasyim Asy'ari**
+### Repositori Praktikum & Tugas Perkuliahan — Semester 3
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Course](https://img.shields.io/badge/Course-PBO--Python-4B8BBE?style=for-the-badge&logo=codeforces&logoColor=white)](https://github.com/)
-[![Campus](https://img.shields.io/badge/Campus-UNHASY%20Tebuireng-006A4E?style=for-the-badge&logo=google-earth&logoColor=white)](https://unhasy.ac.id/)
-[![License](https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge&logo=opensourceinitiative&logoColor=black)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-success?style=for-the-badge)](https://github.com/)
+[![Campus](https://img.shields.io/badge/Kampus-UNHASY%20Tebuireng-005C29?style=for-the-badge&logo=google-earth&logoColor=white)](https://unhasy.ac.id/)
+[![Course](https://img.shields.io/badge/Mata%20Kuliah-PBO%20Python-4B8BBE?style=for-the-badge&logo=codeforces&logoColor=white)](https://github.com/)
+[![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-brightgreen?style=for-the-badge)](https://peps.python.org/pep-0008/)
+[![Reference](https://img.shields.io/badge/Tutorial-Programiz-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.programiz.com/python-programming/getting-started)
 
 <p align="center">
-  <b>Arsip Latihan, Praktikum Mandiri, Tugas Proyek, dan Eksplorasi OOP berbasis Python</b><br>
-  Mata Kuliah Pemrograman Berorientasi Objek (PBO) — Tahun Akademik Semester Ganjil
+  <b>Dokumentasi Pembelajaran, Praktikum Kode, dan Tugas Proyek Berorientasi Objek</b><br>
+  Program Studi S1 Teknik Informatika • Fakultas Teknologi Informasi • Universitas Hasyim Asy'ari
 </p>
 
 ---
 
-[Ringkasan](#-ikhtisar-mata-kuliah) •
-[Dosen & Mahasiswa](#-informasi-akademik) •
+[Profil](#-identitas-mahasiswa) •
+[Referensi Modul](#-referensi-modul-pembelajaran) •
 [4 Pilar OOP](#-4-pilar-oop-dalam-python) •
-[Silabus & Progres](#-roadmap--silabus-perkuliahan) •
-[Struktur Direktori](#-struktur-repositori) •
-[Memulai](#-instalasi--menjalankan-kode)
+[Silabus & Progres](#-silabus--roadmap-materi) •
+[Struktur Folder](#-struktur-direktori) •
+[Cara Menjalankan](#-panduan-instalasi--menjalankan-kode)
 
 ---
 
 </div>
 
-## 📌 Ikhtisar Mata Kuliah
+## 👨‍🎓 Identitas Mahasiswa
 
-Repositori ini disusun sebagai dokumentasi akademik dan *code showcase* untuk mata kuliah **Pemrograman Berorientasi Objek (Object-Oriented Programming - OOP)**. Berbeda dengan pendekatan prosedural, di sini kita merancang solusi perangkat lunak menggunakan paradigma objek dengan memanfaatkan fleksibilitas dan sintaks elegan dari bahasa pemrograman **Python**.
-
-> *"Simple is better than complex. Readability counts."*  
-> — **The Zen of Python (PEP 20)**
+| Informasi | Keterangan |
+| :--- | :--- |
+| **Nama Lengkap** | **Abbi Maulanha Malik** |
+| **NIM** | **2595114007** |
+| **Kelas / Angkatan** | **TI-A / 2025** |
+| **Program Studi** | S1 Teknik Informatika |
+| **Fakultas** | Fakultas Teknologi Informasi (FTI) |
+| **Perguruan Tinggi** | Universitas Hasyim Asy'ari (UNHASY) Tebuireng |
+| **Dosen Pengampu** | **Edwin Hari Agus Prastyo, S.Kom., M.Kom.** |
 
 ---
 
-## 👨‍🏫 Informasi Akademik
+## 🌐 Referensi Modul Pembelajaran
 
-| Komponen | Keterangan |
-| :--- | :--- |
-| **Dosen Pengampu** | **Edwin Hari Agus Prastyo, S.Kom., M.Kom.** |
-| **Institusi** | Fakultas Teknologi Informasi (FTI), Universitas Hasyim Asy'ari (UNHASY) Tebuireng |
-| **Mata Kuliah** | Pemrograman Berorientasi Objek (PBO) |
-| **Mahasiswa** | `Abbi Maulanha Malik` |
-| **NIM** | `2595114007` |
-| **Kelas / Angkatan** | `TI-A/2025` |
+Studi dan implementasi kode dalam repositori ini mengacu pada panduan silabus perkuliahan serta dokumentasi online:
+
+* 📖 **Modul Praktik Utama**: [Programiz — Getting Started with Python](https://www.programiz.com/python-programming/getting-started)
+* 📖 **Dokumentasi OOP Python**: [Python 3 Official Docs — Classes](https://docs.python.org/3/tutorial/classes.html)
+* 📖 **Panduan Gaya Kode**: [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
 ---
 
 ## 🏛️ 4 Pilar OOP dalam Python
 
-Materi inti difokuskan pada implementasi empat pilar OOP menggunakan mekanisme bawaan Python:
+Paradigma berorientasi objek dalam repositori ini berlandaskan empat pilar utama:
 
 ```
-                  ┌─────────────────────────────────┐
-                  │      4 PILAR OOP (PYTHON)       │
-                  └─────────────────────────────────┘
-                     │          │          │        │
-     ┌───────────────┘          │          │        └───────────────┐
-     ▼                          ▼          ▼                        ▼
-┌──────────────┐         ┌───────────┐ ┌──────────────┐      ┌─────────────┐
-│ ENCAPSULATION│         │INHERITANCE│ │ POLYMORPHISM │      │ ABSTRACTION │
-│ _protected   │         │ super()   │ │ Method Over- │      │ from abc    │
-│ __private    │         │ Multiple  │ │   riding &   │      │ import ABC, │
-│ @property    │         │ Inherit.  │ │ Duck Typing  │      │ abstract-   │
-│              │         │           │ │              │      │ method      │
-└──────────────┘         └───────────┘ └──────────────┘      └─────────────┘
+                  ┌─────────────────────────────────────────┐
+                  │          4 PILAR UTAMA OOP              │
+                  └─────────────────────────────────────────┘
+                         │           │           │         │
+       ┌─────────────────┘           │           │         └─────────────────┐
+       ▼                             ▼           ▼                           ▼
+┌───────────────┐             ┌───────────┐ ┌──────────────┐          ┌─────────────┐
+│ ENCAPSULATION │             │INHERITANCE│ │ POLYMORPHISM │          │ ABSTRACTION │
+│ _protected    │             │  super()  │ │   Method     │          │ from abc    │
+│ __private     │             │  Tunggal/ │ │  Overriding  │          │ import ABC, │
+│ @property     │             │  Multiple │ │& Duck Typing │          │ abstract-   │
+│               │             │           │ │              │          │ method      │
+└───────────────┘             └───────────┘ └──────────────┘          └─────────────┘
 ```
 
-1. **Encapsulation (Enkapsulasi)**: Melindungi *state* internal objek memakai konvensi attribute naming (`_single_underscore`, `__double_underscore`) serta `@property`, `@<name>.setter`.
-2. **Inheritance (Pewarisan)**: Menurunkan logika dan perilaku kelas induk ke kelas anak via sintaks `class Child(Parent):` dan `super().__init__()`, termasuk dukungan *Multiple Inheritance* dan *Method Resolution Order (MRO)*.
-3. **Polymorphism (Polimorfisme)**: Memanfaatkan *Duck Typing* (*"If it walks like a duck and quacks like a duck..."*), method overriding, dan antarmuka dinamis seragam antar-kelas.
-4. **Abstraction (Abstraksi)**: Menyembunyikan kompleksitas implementasi menggunakan modul bawaan `abc` (`ABC`, `@abstractmethod`).
+1. **Encapsulation (Enkapsulasi)**: Membatasi akses langsung ke variabel objek menggunakan konvensi `_protected`, atribut `__private`, serta memanfaatkan decorator `@property` dan `@setter`.
+2. **Inheritance (Pewarisan)**: Menurunkan fungsi dan properti dari kelas induk (*parent*) ke kelas anak (*child*) menggunakan `super().__init__()`.
+3. **Polymorphism (Polimorfisme)**: Memberikan perilaku dinamis melalui *method overriding* dan fleksibilitas *duck typing* khas Python.
+4. **Abstraction (Abstraksi)**: Menyediakan cetak biru antarmuka tanpa mengekspos detail implementasi melalui modul bawaan `abc` (`ABC` dan `@abstractmethod`).
 
 ---
 
-## 🗺️ Roadmap & Silabus Perkuliahan
+## 🗺️ Silabus & Roadmap Materi
 
-| Sesi | Materi Pembelajaran | Fokus Utama di Python | Status |
-| :---: | :--- | :--- | :---: |
-| **01** | Pengantar OOP vs Prosedural | Penyiapan Environment, Konsep Class & Instance | ✅ Selesai |
-| **02** | Constructor & Instance Attributes | `__init__()`, `self`, Class Variable vs Instance Variable | ✅ Selesai |
-| **03** | Python Magic / Dunder Methods | `__str__()`, `__repr__()`, `__len__()`, `__eq__()` | ✅ Selesai |
-| **04** | **Pilar 1: Encapsulation** | Private Attributes (`__`), `@property`, Getter & Setter | 🔄 Berjalan |
-| **05** | **Pilar 2: Inheritance** | Single & Multi-level Inheritance, fungsi `super()` | ⏳ Antrean |
-| **06** | **Pilar 3: Polymorphism** | Method Overriding, Duck Typing, Operator Overloading | ⏳ Antrean |
-| **07** | **Pilar 4: Abstraction** | Module `abc`, `abstractmethod`, Interface Contracts | ⏳ Antrean |
-| **UTS** | **Ujian Tengah Semester** | **Review Teori & Implementasi Proyek Studi Kasus** | ⏳ Antrean |
-| **08** | Object Relationship & UML | Association, Aggregation, Composition di Python | ⏳ Antrean |
-| **09** | Robust Code: Exception Handling | Custom Exception Class, `try-except-else-finally` | ⏳ Antrean |
-| **10** | Persistence: File I/O & JSON | Serialisasi Object (`pickle`, `json`, `dataclasses`) | ⏳ Antrean |
-| **11** | Database Integration (CRUD) | Koneksi OOP ke SQLite3 / MySQL (`sqlite3`, `PyMySQL`) | ⏳ Antrean |
-| **12** | GUI Desktop Development | PyQt6 / CustomTkinter berbasis arsitektur OOP | ⏳ Antrean |
-| **13** | Design Pattern Dasar | Singleton, Factory Method, Observer Pattern | ⏳ Antrean |
-| **14** | Architecture & Clean Code | Modularisasi Package, Type Hinting (`typing`), Docstrings | ⏳ Antrean |
-| **UAS** | **Ujian Akhir Semester** | **Presentasi Final Project GUI/Database Desktop App** | ⏳ Antrean |
+| No | Modul / Topik | Fokus Bahasan | Referensi / Catatan | Status |
+| :---: | :--- | :--- | :--- | :---: |
+| **01** | **Python Fundamentals** | Sintaks dasar, variabel, tipe data, control flow | [Programiz Getting Started](https://www.programiz.com/python-programming/getting-started) | ✅ Selesai |
+| **02** | **Class & Instance** | Blueprint class, constructor `__init__()`, keyword `self` | [Programiz OOP Basics](https://www.programiz.com/python-programming/class) | ✅ Selesai |
+| **03** | **Dunder / Magic Methods** | `__str__()`, `__repr__()`, `__len__()`, `__eq__()` | Dokumentasi Python | 🔄 Berjalan |
+| **04** | **Pilar 1: Encapsulation** | Private variable (`__`), Getter & Setter, `@property` | Latihan Studi Kasus | ⏳ Antrean |
+| **05** | **Pilar 2: Inheritance** | Single/Multiple Inheritance, fungsi `super()` | Latihan Studi Kasus | ⏳ Antrean |
+| **06** | **Pilar 3: Polymorphism** | Method Overriding, Duck Typing, Operator Overloading | Latihan Studi Kasus | ⏳ Antrean |
+| **07** | **Pilar 4: Abstraction** | Abstract Base Classes (`ABC`), `@abstractmethod` | Latihan Studi Kasus | ⏳ Antrean |
+| **UTS** | **Ujian Tengah Semester** | **Penerapan 4 Pilar OOP dalam Studi Kasus Mandiri** | Evaluasi Teori & Praktik | ⏳ Antrean |
+| **08** | **Exception Handling** | Blok `try-except-else-finally`, Custom Exceptions | Programiz Exceptions | ⏳ Antrean |
+| **09** | **File Handling & Serialisasi** | File I/O, format JSON, dan modul `pickle` | Pengolahan Data | ⏳ Antrean |
+| **10** | **Database Integration** | Akses basis data SQLite / MySQL berbasis OOP | CRUD Data Mahasiswa | ⏳ Antrean |
+| **11** | **GUI Programming** | Antarmuka grafis desktop (Tkinter / CustomTkinter) | Aplikasi GUI Kasir | ⏳ Antrean |
+| **UAS** | **Ujian Akhir Semester** | **Aplikasi Desktop Terintegrasi (OOP + GUI + DB)** | Proyek Akhir Perkuliahan | ⏳ Antrean |
 
 ---
 
-## 📂 Struktur Repositori
+## 📂 Struktur Direktori
 
-```bash
+```text
 PBO-semester-3/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── requirements.txt            # Daftar pustaka pendukung (CustomTkinter, PyMySQL, dll.)
+├── requirements.txt
 │
-├── 01_dasar_oop/               # Class, object, instance variables
-│   ├── 01_class_object.py
-│   └── 02_constructor_init.py
+├── 01_python_fundamentals/
+│   ├── getting_started.py
+│   └── data_types_and_flow.py
 │
-├── 02_dunder_methods/          # Magic methods (__str__, __repr__, dll.)
-│   └── dunder_examples.py
+├── 02_class_dan_object/
+│   ├── class_dasar.py
+│   └── constructor_dan_self.py
 │
-├── 03_enkapsulasi/             # Private variables, property decorators
-│   ├── rekening_bank.py
-│   └── properti_setter.py
+├── 03_enkapsulasi/
+│   ├── bank_account.py
+│   └── property_decorator.py
 │
-├── 04_pewarisan/               # Single, multiple, hierarchical inheritance
-│   ├── inheritance_dasar.py
-│   └── multiple_inheritance_mro.py
+├── 04_pewarisan/
+│   ├── single_inheritance.py
+│   └── super_keyword.py
 │
-├── 05_polimorfisme/            # Method overriding & duck typing
-│   └── duck_typing_demo.py
+├── 05_polimorfisme/
+│   ├── method_overriding.py
+│   └── duck_typing.py
 │
-├── 06_abstraksi/               # Modul abc dan abstract class
-│   └── abstract_payment_gateway.py
+├── 06_abstraksi/
+│   └── abstract_class_abc.py
 │
-├── tugas_mandiri/              # Kumpulan tugas mingguan
+├── tugas_mingguan/
 │   ├── tugas_01/
 │   └── tugas_02/
 │
-├── project_uts/                # Proyek Ujian Tengah Semester
-│   └── sistem_kasir_oop/
-│
-└── project_uas/                # Proyek Akhir Terintegrasi (GUI + Database)
-    ├── assets/
+└── project_uas/
     ├── database/
     ├── src/
     └── main.py
@@ -145,98 +142,80 @@ PBO-semester-3/
 
 ---
 
-## 🛠️ Instalasi & Menjalankan Kode
+## 🛠️ Panduan Instalasi & Menjalankan Kode
 
-### 1. Prasyarat
-Pastikan Anda telah menginstal **Python 3.10** atau versi yang lebih baru pada perangkat Anda. Periksa dengan:
+### 1. Kloning Repositori
 ```bash
-python --version
-# atau
-python3 --version
-```
-
-### 2. Clone Repositori
-```bash
-git clone https://github.com/[username-github-anda]/PBO-semester-3.git
+git clone https://github.com/AbbiMaulanha/PBO-semester-3.git
 cd PBO-semester-3
 ```
 
-### 3. Buat Virtual Environment *(Disarankan)*
-```bash
-# Membuat virtual environment
-python -m venv venv
+### 2. Buat & Aktifkan Virtual Environment *(Disarankan)*
+* **Windows (PowerShell / Command Prompt):**
+  ```bash
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+* **Linux / macOS:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
 
-# Aktivasi venv:
-# Windows (PowerShell/CMD):
-venv\Scripts\activate
-
-# Linux / macOS:
-source venv/bin/activate
-```
-
-### 4. Instal Dependensi (Jika Diperlukan)
+### 3. Pasang Dependensi *(Opsional)*
+Jika terdapat pustaka pihak ketiga pada `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Jalankan Contoh Program
+### 4. Jalankan Berkas Program
 ```bash
-# Menjalankan salah satu modul latihan
-python 03_enkapsulasi/rekening_bank.py
+python 01_python_fundamentals/getting_started.py
 ```
 
 ---
 
-## 💡 Cuplikan Gaya Kode (OOP Python Standard)
-
-Berikut adalah konvensi gaya penulisan kode berorientasi objek yang diterapkan di repositori ini (menggunakan *type hinting* dan *clean code*):
+## 💻 Contoh Implementasi OOP (PEP 8)
 
 ```python
 from abc import ABC, abstractmethod
 
-class Kendaraan(ABC):
-    """Abstract base class yang mendefinisikan kontrak kendaraan."""
-    
-    def __init__(self, merk: str, tahun: int) -> None:
-        self._merk = merk          # Protected attribute
-        self.__tahun = tahun       # Private attribute
+class Mahasiswa(ABC):
+    """Representasi kelas abstrak civitas akademika."""
+
+    def __init__(self, nama: str, nim: str) -> None:
+        self.nama = nama
+        self.__nim = nim  # Private attribute
 
     @property
-    def tahun(self) -> int:
-        """Getter untuk atribut private tahun."""
-        return self.__tahun
+    def nim(self) -> str:
+        """Getter untuk atribut private nim."""
+        return self.__nim
 
     @abstractmethod
-    def nyalakan_mesin(self) -> str:
-        """Method abstrak yang wajib diimplementasikan subclass."""
+    def sapa(self) -> str:
+        """Method abstrak wajib di-override oleh kelas turunan."""
         pass
 
 
-class Mobil(Kendaraan):
-    def __init__(self, merk: str, tahun: int, model: str) -> None:
-        super().__init__(merk, tahun)
-        self.model = model
+class MahasiswaInformatika(Mahasiswa):
+    def __init__(self, nama: str, nim: str, kelas: str) -> None:
+        super().__init__(nama, nim)
+        self.kelas = kelas
 
-    def nyalakan_mesin(self) -> str:
-        return f"Mesin mobil {self._merk} {self.model} ({self.tahun}) siap meluncur! 🚗💨"
+    def sapa(self) -> str:
+        return f"Halo, saya {self.nama} ({self.nim}) dari kelas {self.kelas} FTI UNHASY!"
 
 
 if __name__ == "__main__":
-    mobil_saya = Mobil("Toyota", 2024, "GR Yaris")
-    print(mobil_saya.nyalakan_mesin())
+    mhs = MahasiswaInformatika("Abbi Maulanha Malik", "2595114007", "TI-A/2025")
+    print(mhs.sapa())
 ```
 
 ---
 
-## 🤝 Catatan & Kontribusi
-
-* Repositori ini dikembangkan sebagai portofolio akademik pada perkuliahan PBO Semester 3.
-* Dibuat mengikuti standar gaya penulisan **PEP 8**.
-* Terbuka untuk diskusi, masukan, dan perbaikan logika program via tab **Issues** atau **Pull Request**.
-
----
-
 <div align="center">
-  <sub>Dibangun dengan ❤️ dan ☕ oleh Mahasiswa FTI UNHASY • Dosen Pengampu: <b>Edwin Hari Agus Prastyo, S.Kom., M.Kom.</b></sub><br>
-  <sub><b>Universitas Hasyim Asy'ari Tebuireng Jombang</b></sub>
+  <sub>Dikelola oleh <b>Abbi Maulanha Malik</b> • NIM: <b>2595114007</b></sub><br>
+  <sub>Dosen Pengampu: <b>Edwin Hari Agus Prastyo, S.Kom., M.Kom.</b></sub><br>
+  <sub><b>Program Studi Teknik Informatika • Universitas Hasyim Asy'ari (UNHASY) Tebuireng</b></sub>
 </div>
