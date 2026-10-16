@@ -14,7 +14,7 @@
 | **Fakultas** | Fakultas Teknologi Informasi (FTI) |
 | **Perguruan Tinggi** | Universitas Hasyim Asy'ari (UNHASY) Tebuireng Jombang |
 | **Dosen Pengampu** | **Edwin Hari Agus Prastyo, S.Kom., M.Kom.** |
-| **Waktu Eksekusi** | 2026-10-16 14:37:11 |
+| **Waktu Eksekusi** | 2026-10-16 14:40:13 |
 | **Link Repositori Git** | [GitHub: abbimaulanhamalik/PBO-semester-3](https://github.com/abbimaulanhamalik/PBO-semester-3) |
 
 ---
@@ -47,7 +47,7 @@ Seluruh kode sumber pada tugas ini diimplementasikan secara komprehensif dari 8 
 ============================================================
  Example 1: Get Current Date and Time 
 ============================================================
-datetime.datetime.now(): 2026-10-16 14:37:01.334328
+datetime.datetime.now(): 2026-10-16 14:40:03.691598
 
 ============================================================
  Example 2: Get Current Date 
@@ -145,9 +145,9 @@ Total seconds = 435633.233423
 ============================================================
  Example 15: Python format datetime (strftime) 
 ============================================================
-Time: 14:37:01
-s1: 10/16/2026, 14:37:01
-s2: 16/10/2026, 14:37:01
+Time: 14:40:03
+s1: 10/16/2026, 14:40:03
+s2: 16/10/2026, 14:40:03
 
 ============================================================
  Example 16: Python strptime() Method 
@@ -158,9 +158,9 @@ date_object = 2022-12-25 00:00:00
 ============================================================
  Example 17: Handling timezone in Python with pytz 
 ============================================================
-Local : 10/16/2026, 14:37:01
-NY    : 10/16/2026, 03:37:01
-London: 10/16/2026, 08:37:01
+Local : 10/16/2026, 14:40:03
+NY    : 10/16/2026, 03:40:03
+London: 10/16/2026, 08:40:03
 ```
 
 ---
@@ -177,8 +177,8 @@ London: 10/16/2026, 08:37:01
 year: 2026
 month: 10
 day: 16
-time: 14:37:01
-date and time: 10/16/2026, 14:37:01
+time: 14:40:03
+date and time: 10/16/2026, 14:40:03
 
 ============================================================
  Example 2: Creating string from a timestamp 
@@ -282,8 +282,8 @@ d4 (MonAbbr-DD-YYYY)      = Oct-16-2026
 ============================================================
  Example 3: Get current date and time using datetime.now() 
 ============================================================
-now = 2026-10-16 14:37:01.673511
-date and time = 16/10/2026 14:37:01
+now = 2026-10-16 14:40:03.987156
+date and time = 16/10/2026 14:40:03
 ```
 
 ---
@@ -297,19 +297,19 @@ date and time = 16/10/2026 14:37:01
 ============================================================
  Example 1: Current time using the datetime object 
 ============================================================
-Current Time (via datetime) = 14:37:01
+Current Time (via datetime) = 14:40:04
 
 ============================================================
  Example 2: Current time using time module 
 ============================================================
-Current Time (via time module) = 14:37:01
+Current Time (via time module) = 14:40:04
 
 ============================================================
  Example 3: Current time of Certain Timezones with pytz 
 ============================================================
-NY time    : 03:37:01
-London time: 08:37:01
-Jakarta (WIB) time: 14:37:01
+NY time    : 03:40:04
+London time: 08:40:04
+Jakarta (WIB) time: 14:40:04
 ```
 
 ---
@@ -330,13 +330,13 @@ Formatted date = 25 December, 2018 16:27:53
 ============================================================
  Example 2: Python datetime to timestamp 
 ============================================================
-Current datetime = 2026-10-16 14:37:01.859543
-Timestamp        = 1792136221.859543
+Current datetime = 2026-10-16 14:40:04.152760
+Timestamp        = 1792136404.15276
 
 ============================================================
  Example 3: Two-way Conversion Verification 
 ============================================================
-Reconstructed datetime from timestamp: 2026-10-16 14:37:01.859543
+Reconstructed datetime from timestamp: 2026-10-16 14:40:04.152760
 Differences between now and reconstructed: 0:00:00
 ```
 
@@ -351,13 +351,13 @@ Differences between now and reconstructed: 0:00:00
 ============================================================
  1. Python time.time() Function 
 ============================================================
-Seconds since epoch = 1792136221.9008758
+Seconds since epoch = 1792136404.206948
 
 ============================================================
  2. Python time.ctime() Function 
 ============================================================
 Converted 1672215379.5045543 -> Local time: Wed Dec 28 15:16:19 2022
-Current time.ctime() without arguments: Fri Oct 16 14:37:01 2026
+Current time.ctime() without arguments: Fri Oct 16 14:40:04 2026
 
 ============================================================
  3. Python time.sleep() Function 
@@ -371,7 +371,7 @@ Printed after 1.0 second delay.
 result (from fixed epoch): time.struct_time(tm_year=2022, tm_mon=12, tm_mday=28, tm_hour=15, tm_min=8, tm_sec=53, tm_wday=2, tm_yday=362, tm_isdst=0)
 year   : 2022
 tm_hour: 15
-Current localtime() struct_time: time.struct_time(tm_year=2026, tm_mon=10, tm_mday=16, tm_hour=14, tm_min=37, tm_sec=2, tm_wday=4, tm_yday=289, tm_isdst=0)
+Current localtime() struct_time: time.struct_time(tm_year=2026, tm_mon=10, tm_mday=16, tm_hour=14, tm_min=40, tm_sec=5, tm_wday=4, tm_yday=289, tm_isdst=0)
 
 ============================================================
  5. Python time.gmtime() Function (UTC) 
@@ -390,12 +390,12 @@ time.mktime() output: 1672191844.0
  7. Python time.asctime() Function 
 ============================================================
 time.asctime(t) = Fri Dec 28 08:44:04 2022
-time.asctime() with current localtime: Fri Oct 16 14:37:02 2026
+time.asctime() with current localtime: Fri Oct 16 14:40:05 2026
 
 ============================================================
  8. Python time.strftime() Function 
 ============================================================
-Formatted struct_time with time.strftime(): 10/16/2026, 14:37:02
+Formatted struct_time with time.strftime(): 10/16/2026, 14:40:05
 
 ============================================================
  9. Python time.strptime() Function 
@@ -431,11 +431,11 @@ Printed after 2.4 seconds.
  Example 3: Create a Digital Clock in Python (5 Detik Demo) 
 ============================================================
 Simulasi jam digital 12-jam (berjalan selama 5 tick agar run selesai):
-Tick 1: 02:37:06 PM
-Tick 2: 02:37:07 PM
-Tick 3: 02:37:08 PM
-Tick 4: 02:37:09 PM
-Tick 5: 02:37:10 PM
+Tick 1: 02:40:08 PM
+Tick 2: 02:40:09 PM
+Tick 3: 02:40:10 PM
+Tick 4: 02:40:11 PM
+Tick 5: 02:40:12 PM
 Simulasi Digital Clock selesai dengan aman.
 ```
 
